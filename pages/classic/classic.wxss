@@ -1,0 +1,34 @@
+/* pages/classic/classic.wxss */
+.chunk{
+  width: 150px;
+  height: 100px;
+}
+
+.containner{
+  /* row column-reverse column */
+  /* view 默认100% 高度自适应 */
+  display: flex;
+  /* 对齐方式 */
+  justify-content: flex-start;
+  /* 交叉轴 */
+  align-items: baseline;
+  flex-wrap: wrap;
+  flex-direction:row-reverse;
+  height: 200px;
+  background-color: #999999
+}
+
+.color1{
+  background-color: green;
+  font-size: 26px;
+}
+
+.color2{
+  background-color: palegreen;
+  font-size: 16px;
+}
+
+.color3{
+  background-color: purple;
+  font-size: 12px;
+}
